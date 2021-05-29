@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+bs4 = "*"
+qrcode = "*"
+pillow = "*"
+pyzbar = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
